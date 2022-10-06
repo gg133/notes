@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragments.HomeFragment">
+
+    <RelativeLayout
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="20dp">
+
+        <RelativeLayout
+            android:id="@+id/group_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp">
+
+            <View
+                android:id="@+id/rectangle_1_ek1"
+                android:layout_width="140dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/rectangle_1_ek1_shape" />
+
+            <View
+                android:id="@+id/rectangle_2_ek1"
+                android:layout_width="120dp"
+                android:layout_height="85dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/rectangle_2_ek1_shape" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txtNumberMon"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="29"
+            android:textColor="@color/dPurple"
+            android:textSize="48sp" />
+
+        <TextView
+            android:id="@+id/monAndYear"
+            android:layout_width="96dp"
+            android:layout_height="18dp"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="65dp"
+            android:gravity="center"
+            android:text="september, 2022"
+            android:textColor="@color/dPurple"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp">
+
+
+        <RelativeLayout
+            android:id="@+id/group_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp">
+
+            <View
+                android:id="@+id/rectangle_1_ek2"
+                android:layout_width="140dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/rectangle_1_ek2_shape" />
+
+            <View
+                android:id="@+id/rectangle_2_ek2"
+                android:layout_width="120dp"
+                android:layout_height="85dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rectangle_2_ek2_shape" />
+
+            <TextView
+                android:id="@+id/txt_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="16:45"
+                android:textColor="@color/dPurple"
+                android:textSize="40sp" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
